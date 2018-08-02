@@ -5,10 +5,8 @@
  */
 package com.jdeps.beira.repoImpl;
 
-import com.jdeps.beira.model.Shift;
 import com.jdeps.beira.model.Supervisor;
 import com.jdeps.beira.repo.SupervisorRepo;
-import java.io.Serializable;
 import org.hibernate.Criteria;
 import org.hibernate.SessionFactory;
 import org.hibernate.criterion.Criterion;

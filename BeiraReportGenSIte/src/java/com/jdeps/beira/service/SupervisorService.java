@@ -20,7 +20,5 @@ public interface SupervisorService {
 
     public boolean  enterShift(Shift shift);
 
-    public boolean  itemProductionDetails(Map map);
-
     
 }

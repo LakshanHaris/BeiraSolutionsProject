@@ -23,20 +23,4 @@ public interface ShiftRepo {
 
     public Serializable enterShift(Shift shift);
 
-    public Machineruntime getNewlyCreatedMachineRunTime();
-
-    public boolean  saveMachineRunTime(Machineruntime machineruntime);
-
-    public boolean  saveProduction(Production production);
-
-    public Production getNewlyCreatedProduction();
-
-    public boolean saveProductionItem(Productionitems productionitems);
-
-    public Productionitems getNewlyCreatedProductionItem();
-
-    public boolean saveRejects(Rejects rejects);
-
-    public boolean saveDowntime(Downtime downtimeObj);
-
 }

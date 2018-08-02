@@ -30,6 +30,7 @@ public class Log_inout_Controller {
     public ModelAndView getShiftPageLogging(@RequestParam(value = "regNumber") int regNumber, @RequestParam(value = "password") String pass, HttpSession session) {
 
         Supervisor searcedSupervisor = supervisorService.checkCredintials(regNumber, pass);
+        System.out.println("output: "+searcedSupervisor);
         ModelAndView mavSupervisor = new ModelAndView();
         if (null != searcedSupervisor) {
 
